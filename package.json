@@ -13,7 +13,7 @@
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^8.0.4",
     "cz-conventional-changelog": "^3.3.0",
-    "nuxt": "3.0.0-rc.3"
+    "nuxt": "3.0.0-rc.2"
   },
   "config": {
     "commitizen": {
@@ -21,18 +21,20 @@
     }
   },
   "dependencies": {
-    "@nuxt/kit": "3.0.0-rc.3",
+    "@nuxt/kit": "3.0.0-rc.2",
+    "@nuxt/vite-builder": "3.0.0-rc.2",
     "@vue/reactivity": "3.2.36",
     "@vue/runtime-core": "3.2.36",
+    "@vue/runtime-dom": "^3.2.33",
+    "@vue/server-renderer": "^3.2.33",
+    "@vue/shared": "^3.2.33",
     "chai": "^4.3.6",
     "defu": "^6.0.0",
     "destr": "^1.1.1",
     "dotenv": "^16.0.0",
     "esbuild": "^0.14.36",
-    "@vue/runtime-dom": "^3.2.33",
-    "@vue/server-renderer": "^3.2.33",
-    "@vue/shared": "^3.2.33",
-    "@nuxt/vite-builder": "3.0.0-rc.3",
-    "semantic-release": "^19.0.2"
+    "semantic-release": "^19.0.2",
+    "ufo": "^0.8.4",
+    "vue": "3.2.33"
   }
 }

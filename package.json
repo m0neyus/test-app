@@ -5,7 +5,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "semantic-release": "semantic-release --branches main"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",

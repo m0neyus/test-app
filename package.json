@@ -19,5 +19,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "semantic-release": "^19.0.2"
   }
 }

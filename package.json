@@ -4,9 +4,16 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "commit": "git-cz"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "nuxt": "3.0.0-rc.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

@@ -22,6 +22,17 @@
   },
   "dependencies": {
     "@nuxt/kit": "3.0.0-rc.3",
+    "@vue/reactivity": "3.2.36",
+    "@vue/runtime-core": "3.2.36",
+    "chai": "^4.3.6",
+    "defu": "^6.0.0",
+    "destr": "^1.1.1",
+    "dotenv": "^16.0.0",
+    "esbuild": "^0.14.36",
+    "@vue/runtime-dom": "^3.2.33",
+    "@vue/server-renderer": "^3.2.33",
+    "@vue/shared": "^3.2.33",
+    "@nuxt/vite-builder": "3.0.0-rc.3",
     "semantic-release": "^19.0.2"
   }
 }
